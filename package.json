@@ -2,9 +2,9 @@
   "name": "tailwind-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./public/index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input-styles.css -o ./public/output-styles.css "
+    "build-css": "tailwindcss -i ./src/input-styles.css -o ./public/output-styles.css --watch"
   },
   "keywords": [],
   "author": "",
