@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbar-tab {
+    @apply mr-8 text-3xl cursor-pointer;
+  }
+}
