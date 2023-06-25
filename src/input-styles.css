@@ -4,6 +4,31 @@
 
 @layer components {
   .navbar-tab {
-    @apply mr-8 text-3xl cursor-pointer;
+    @apply cursor-pointer
+    inline-block
+    relative
+    text-white
+    mr-8
+    text-3xl;
+  }
+
+  .navbar-tab::after {
+    @apply content-[""]
+    absolute
+    w-full
+    scale-x-0
+    h-0.5
+    bottom-0
+    left-0
+    bg-white
+    transform
+    origin-bottom-left
+    duration-300
+    ease-out;
+  }
+
+  .navbar-tab:hover::after {
+    @apply scale-x-100
+    origin-bottom-left;
   }
 }
