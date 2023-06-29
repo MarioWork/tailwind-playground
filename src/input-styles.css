@@ -31,4 +31,19 @@
     @apply scale-x-100
     origin-bottom-left;
   }
+
+  .card {
+    @apply rounded-sm;
+  }
+
+  main {
+    @apply p-5;
+  }
+
+  .cards-wrapper {
+    @apply w-full
+    flex
+    flex-col
+    items-center;
+  }
 }
