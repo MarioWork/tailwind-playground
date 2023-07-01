@@ -33,7 +33,9 @@
   }
 
   .card {
-    @apply rounded-sm;
+    @apply rounded-sm
+    shadow-md
+    pb-4;
   }
 
   main {
@@ -44,6 +46,6 @@
     @apply w-full
     flex
     flex-col
-    items-center;
+    items-center gap-5;
   }
 }
