@@ -38,6 +38,11 @@
     pb-4;
   }
 
+  .card-title {
+    @apply mt-2
+    px-2;
+  }
+
   main {
     @apply p-5;
   }
