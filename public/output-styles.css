@@ -579,7 +579,10 @@ main {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  place-items: center;
   gap: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .ml-auto {
@@ -596,10 +599,6 @@ main {
 
 .h-32 {
   height: 8rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .bg-black {
