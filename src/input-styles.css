@@ -44,6 +44,10 @@
     px-2;
   }
 
+  .card-image {
+    @apply w-full;
+  }
+
   main {
     @apply p-5;
   }

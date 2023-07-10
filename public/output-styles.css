@@ -571,6 +571,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.card-image {
+  width: 100%;
+}
+
 main {
   padding: 1.25rem;
 }
@@ -599,6 +603,10 @@ main {
 
 .h-32 {
   height: 8rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .bg-black {
