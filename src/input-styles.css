@@ -34,9 +34,9 @@
 
   .card {
     @apply rounded-sm
-    w-2/4
     shadow-md
-    pb-4;
+    pb-4
+    w-full;
   }
 
   .card-title {
